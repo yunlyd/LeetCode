@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * @create 2023-04-05-8:41
  */
-public class twoSum_1 {
+public class Solution_1 {
     public static void main(String[] args) {
 //        写数组的三种方法:
 //        int[] nums = new int[4];

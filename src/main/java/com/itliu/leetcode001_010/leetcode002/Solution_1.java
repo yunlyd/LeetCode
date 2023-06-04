@@ -3,7 +3,7 @@ package com.itliu.leetcode001_010.leetcode002;
 /**
  * @create 2023-06-03-8:43
  */
-public class addTwoNumbers_1 {
+public class Solution_1 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = null, tail = null;  // 定义头节点和尾节点，用于构建结果链表

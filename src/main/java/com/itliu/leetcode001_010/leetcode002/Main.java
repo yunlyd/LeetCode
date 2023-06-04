@@ -27,7 +27,7 @@ public class Main {
         l2.next.next.next = new ListNode(9);
 
         // 调用 addTwoNumbers 方法并获取结果
-        addTwoNumbers_1 solution = new addTwoNumbers_1();
+        Solution_1 solution = new Solution_1();
         ListNode result = solution.addTwoNumbers(l1, l2);
 
         // 将结果链表的值存入列表

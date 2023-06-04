@@ -5,11 +5,11 @@ import java.util.Arrays;
 /**
  * @create 2023-06-02-8:51
  */
-public class twoSum_2 {
+public class Solution_2 {
     public static void main(String[] args) {
         int[] nums = {2,7,11,15};
         int target = 9;
-        twoSum_1 a = new twoSum_1();
+        Solution_1 a = new Solution_1();
         int[] ints = a.twoSum(nums, target);
         System.out.println(Arrays.toString(ints));
     }
