@@ -1,5 +1,4 @@
 package com.itliu.leetcode001_010.leetcode004;
-
 public class Solution_2 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length; // 数组 nums1 的长度
