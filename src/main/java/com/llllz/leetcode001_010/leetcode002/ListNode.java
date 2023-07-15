@@ -1,4 +1,4 @@
-package com.itliu.leetcode001_010.leetcode002;
+package com.llllz.leetcode001_010.leetcode002;
 
 /**
  * @create 2023-06-03-9:08

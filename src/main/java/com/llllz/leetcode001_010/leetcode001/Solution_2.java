@@ -1,4 +1,4 @@
-package com.itliu.leetcode001_010.leetcode001;
+package com.llllz.leetcode001_010.leetcode001;
 
 import java.util.Arrays;
 

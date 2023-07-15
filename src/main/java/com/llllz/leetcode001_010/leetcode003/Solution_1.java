@@ -1,4 +1,4 @@
-package com.itliu.leetcode001_010.leetcode003;
+package com.llllz.leetcode001_010.leetcode003;
 
 import java.util.HashMap;
 
@@ -26,7 +26,7 @@ public class Solution_1 {
 
         for (int i = 0; i < s.length(); i++) {
             if (map.containsKey(s.charAt(i))) {  // 如果字符已经在HashMap中存在，表示出现重复字符
-                left = Math.max(left, map.get(s.charAt(i)) + 1);  // 更新左边界为当前重复字符的位置
+                left = Math.max(left, map.get(s.charAt(i)) + 1);  // 更新左边界为当前两个重复字符并且靠前的那个字符的下一个位置
             }
             map.put(s.charAt(i), i);  // 将字符和其索引加入HashMap中，更新最新出现的位置
             max = Math.max(max, i - left + 1);  // 更新最长子串的长度

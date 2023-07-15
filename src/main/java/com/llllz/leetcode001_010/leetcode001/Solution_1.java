@@ -1,4 +1,4 @@
-package com.itliu.leetcode001_010.leetcode001;
+package com.llllz.leetcode001_010.leetcode001;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -26,6 +26,7 @@ public static int[] twoSum(int[] nums, int target) {
         }
         hashtable.put(nums[i], i);
     }
+    //本身的含义是长度为0的空数组，定义在此处没有实际的意义，只是为了编译器编译过程中不出错。
     return new int[0];
 }
 }
